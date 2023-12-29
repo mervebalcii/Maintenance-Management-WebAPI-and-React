@@ -1,60 +1,11 @@
-import './App.css';
 import { Provider } from 'react-redux';
-//import store from "./reducers/CustomerStore";
-//import EmployeeListComponent from './EmployeeListComponent';
-//import EmployeeForm from './EmployeeForm';
-//import EmployeeFormFunction from './EmployeeFormFunction';
 import { BrowserRouter, Routes, Route,Router, Link } from "react-router-dom"
 import OwnerCreate from './CustomerComponent/OwnerCreate';
 import OwnerList from './CustomerComponent/OwnerList';
 import CustomerUpdate from './CustomerComponent/CustomerUpdate';
-//import Navbar from "./components/navbar/Navbar";
-//import Navbar from './components/Navbar/Navbar';
-
 import { Customers } from './Customers';
-import './App.css';
 import VehicleList from './CustomerComponent/VehicleList';
-
-
-
-
-//import Navbar from './Navbar';
 import VehicleCreate from './CustomerComponent/VehicleCreate';
-/*
-
-function App() {
-  return (
-    <>
-    
-     
-      <Navbar />
-      <div className="container">
-      
-        <Routes>
-          <Route path="/" element={<OwnerList />} />
-          <Route path="/OwnerCreate" element={<OwnerCreate />} />
-          <Route path="/CustomerUpdate" element={<CustomerUpdate />} />
-          <Route path="/VehicleList" element={<VehicleList />} />
-          <Route path="/VehicleCreate" element={<VehicleCreate />} />
-          <Route path="/Customers" element={<Customers />} />
-       
-        </Routes>
-      
-
-      
-      </div>
-    
-      </>
-
-
-     
-
-  );
-}
-
-export default App;
-
-*/
 import CustomerPage from './components/CustomerPage';
 import CustomerEditModal from './components/CustomerEditModal';
 import CustomerForm from './components/CustomerForm';
